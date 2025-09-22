@@ -6,22 +6,22 @@ export const About = () => {
     {
       icon: Code,
       title: "AI & ML Engineering",
-      description: "Expert in Generative AI, LLM frameworks like CrewAI and LangChain for intelligent automation"
+      description: "Expert in Generative AI, LLM frameworks like CrewAI and LangChain, with hands-on experience in agentic AI workflow orchestration for intelligent automation."
     },
     {
       icon: TestTube,
-      title: "Test Automation with AI",
-      description: "Pioneer in AI-driven test systems and autonomous test planning using LLM frameworks"
+      title: "AI-Powered Test Automation",
+      description: "Delivered autonomous testing solutions leveraging AI-driven test systems, LLM-based planning, and smart test orchestration for enhanced quality and speed."
     },
     {
       icon: Zap,
-      title: "IoT & Cloud Solutions",
-      description: "Skilled in AWS IoT Core, Azure OpenAI, and scalable cloud-based AI/ML deployments"
+      title: "IoT, Cloud & Kubernetes Solutions",
+      description: "Skilled in AWS, Azure, and multi-cloud deployments with Kubernetes, Helm, and MCP for scalable, resilient, and cloud-native AI/ML applications."
     },
     {
       icon: Users,
-      title: "Algorithm Development",
-      description: "Experience in Python algorithm development and CI/CD pipeline optimization"
+      title: "Algorithm & DevOps Engineering",
+      description: "Proficient in Python algorithm development, CI/CD pipeline optimization, and orchestrating AI workflows with modern DevOps and cloud-native practices."
     }
   ];
 
@@ -33,9 +33,9 @@ export const About = () => {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            I'm an experienced AI Engineer and Software Developer specializing in IoT systems, AI-driven solutions, 
-            and Generative AI technologies. Currently working at Kinaxis on Python algorithm development and 
-            previously pioneered AI frameworks at KONE Elevators for autonomous test systems.
+            I am an experienced AI Engineer and Software Developer specializing in IoT systems, AI-driven solutions, and 
+            Generative AI technologies. Currently, I contribute to Python algorithm development at Kinaxis and have previously
+             led the development of AI frameworks for autonomous testing systems at KONE Elevators.
           </p>
         </div>
 
@@ -62,9 +62,10 @@ export const About = () => {
             <div>
               <h3 className="text-2xl font-bold mb-4">My Journey</h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Started with Mechatronics Engineering and evolved into an AI specialist working with 
-                cutting-edge technologies. Currently pursuing MTech in Artificial Intelligence while 
-                working at Kinaxis on algorithm development and CI/CD optimization.
+                Started with a background in Mechatronics Engineering and evolved into an AI specialist working with
+                 cutting-edge technologies. Holding a Master’s degree in Artificial Intelligence,
+                  I am currently working as a Software Development Engineer at Kinaxis, focusing on Python algorithm development,
+                   exploring LLM agent capabilities, and designing AI/ML-based products and solutions.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 At KONE Elevators, I pioneered AI frameworks for autonomous test analysis and built 
@@ -78,7 +79,7 @@ export const About = () => {
                 <div className="text-sm text-muted-foreground">Years Experience</div>
               </div>
               <div className="bg-background/50 rounded-lg p-4">
-                <div className="text-2xl font-bold text-accent">AI/ML</div>
+                <div className="text-2xl font-bold text-accent">AI/ML & Testing</div>
                 <div className="text-sm text-muted-foreground">Specialization</div>
               </div>
               <div className="bg-background/50 rounded-lg p-4">
@@ -87,7 +88,7 @@ export const About = () => {
               </div>
               <div className="bg-background/50 rounded-lg p-4">
                 <div className="text-2xl font-bold text-accent">MTech</div>
-                <div className="text-sm text-muted-foreground">AI (Pursuing)</div>
+                <div className="text-sm text-muted-foreground">Artificial Intelligence</div>
               </div>
             </div>
           </div>

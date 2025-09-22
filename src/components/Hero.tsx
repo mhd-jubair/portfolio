@@ -25,27 +25,46 @@ export const Hero = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 transition-smooth">
-            <Github className="mr-2 h-5 w-5" />
-            View My Work
-          </Button>
-          <Button 
-            variant="outline" 
-            size="lg" 
-            className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth"
+          {/* View My Work → GitHub */}
+          <a
+            href="https://github.com/mhd-jubair?tab=repositories" // replace with your GitHub URL
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <Mail className="mr-2 h-5 w-5" />
-            Get In Touch
-          </Button>
+            <Button
+              size="lg"
+              className="bg-primary text-primary-foreground hover:bg-primary/90 transition-smooth"
+            >
+              <Github className="mr-2 h-5 w-5" />
+              View My Work
+            </Button>
+          </a>
+
+          {/* Get In Touch → Email */}
+          <a
+            href="mailto:jakirjubair.555@gmail.com?subject=Hello&body=Hi%2C%0I%20wanted%20to%20connect%20with%20you."
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button
+              variant="outline"
+              size="lg"
+              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth"
+            >
+              <Mail className="mr-2 h-5 w-5" />
+              Get In Touch
+            </Button>
+          </a>
         </div>
+
 
         {/* Tech stack preview */}
         <div className="flex flex-wrap justify-center gap-3 text-sm text-muted-foreground">
           <span className="px-3 py-1 bg-secondary rounded-full">Python</span>
           <span className="px-3 py-1 bg-secondary rounded-full">Generative AI</span>
           <span className="px-3 py-1 bg-secondary rounded-full">AWS</span>
-          <span className="px-3 py-1 bg-secondary rounded-full">Azure OpenAI</span>
-          <span className="px-3 py-1 bg-secondary rounded-full">LangChain</span>
+          <span className="px-3 py-1 bg-secondary rounded-full">Test Automation</span>
+          <span className="px-3 py-1 bg-secondary rounded-full">Machine Learning</span>
           <span className="px-3 py-1 bg-secondary rounded-full">IoT</span>
         </div>
       </div>

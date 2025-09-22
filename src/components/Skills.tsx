@@ -5,22 +5,22 @@ export const Skills = () => {
   const skillCategories = [
     {
       title: "AI & Machine Learning",
-      skills: ["Generative AI", "LangChain", "CrewAI", "TensorFlow", "PyTorch", "RAG Systems", "LLM Integration", "AI Agents"],
+      skills: ["Generative AI", "LangChain", "CrewAI", "TensorFlow", "PyTorch", "RAG Systems", "LLM Integration", "AI Agents", "Machine Learning", "Copilot"],
       color: "primary"
     },
     {
       title: "Programming & Development", 
-      skills: ["Python", "Django", "Linux", "Shell", "Docker", "CI/CD", "Kubernetes", "Algorithm Development"],
+      skills: ["Python", "Django", "Linux", "Shell", "Docker", "CI/CD", "Kubernetes", "GoLang", "Rust", "RESTAPI", "FastAPI", "Flask"],
       color: "accent"
     },
     {
-      title: "Cloud & IoT",
-      skills: ["AWS IoT Core", "Azure OpenAI", "AWS S3", "AWS Lambda", "IoT Systems", "MLOps", "Cloud Deployment", "Data Processing"],
+      title: "Cloud & IoT & CI/CD",
+      skills: ["AWS", "Azure", "GCP", "Jenkins", "MLOps", "Cloud Deployment", "Data Processing", "Gitlab", "GitHub", "Docker", "Kubernetes", "Helm"],
       color: "primary"
     },
     {
       title: "Testing & Automation",
-      skills: ["Robot Framework", "Selenium", "Test Automation", "AI-driven Testing", "Hardware-in-Loop Testing", "Test Planning", "GIT", "Scrum"],
+      skills: ["Robot Framework", "Selenium", "Test Automation", "Playwright", "Hardware-in-Loop Testing", "Test Planning", "GIT", "Scrum", "PyTest"],
       color: "accent"
     }
   ];
@@ -74,7 +74,7 @@ export const Skills = () => {
                 </div>
               </div>
               <h4 className="font-semibold mb-2">Expert Level</h4>
-              <p className="text-sm text-muted-foreground">Python, AI/ML, IoT Systems, LangChain</p>
+              <p className="text-sm text-muted-foreground">Python, AI/ML, LangChain, Test Automation</p>
             </div>
             <div className="text-center">
               <div className="mb-4">

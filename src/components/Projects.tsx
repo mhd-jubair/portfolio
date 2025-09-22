@@ -6,28 +6,12 @@ import { Github, ExternalLink, TestTube } from "lucide-react";
 export const Projects = () => {
   const projects = [
     {
-      title: "AI Framework for Test Analysis",
-      description: "Pioneer project creating AI framework to analyze Robot Framework logs autonomously using LLM. Automated test log analysis and requirements validation, revolutionizing testing efficiency at KONE Elevators.",
-      technologies: ["LLM", "Robot Framework", "Python", "AI Analysis"],
-      github: "#",
-      demo: "#",
-      impact: "Autonomous Analysis"
-    },
-    {
-      title: "Django Relay Control System",
-      description: "Developed Django Web Application to operate relay modules in test environment, enabling manual testing accessibility and reducing infrastructure complexity for multiple test scenarios.",
-      technologies: ["Django", "Python", "Web Development", "Hardware Control"],
-      github: "#",
-      demo: "#",
-      impact: "Environment Optimization"
-    },
-    {
-      title: "IoT Test Automation Platform",
-      description: "Built comprehensive AWS IoT Core testing workflows with AI-driven diagnostic systems. Integrated device connectivity, messaging, and shadow updates with intelligent monitoring dashboards.",
-      technologies: ["AWS IoT Core", "Python", "Test Automation", "AI Diagnostics"],
-      github: "#",
-      demo: "#",
-      impact: "Automated IoT Testing"
+      title: "Mr Millionaire",
+      description: "Mr. Millionaire is a console-based quiz game inspired by Who Wants to Be a Millionaire?, featuring 15 challenging questions, prize progression, lifelines, and AI-generated questions via LiteLLM.",
+      technologies: ["LLM", "LLM Memory", "System Architecture", "Autonomous AI Agents", "OpenAI"],
+      github: "https://github.com/mhd-jubair/mr-millionaire",
+      demo: "https://pypi.org/project/mr-millionaire/",
+      impact: "Autonomous AI Game base on CLI"
     },
     {
       title: "RAG-Powered AI Agents",
@@ -35,7 +19,7 @@ export const Projects = () => {
       technologies: ["CrewAI", "LangChain", "RAG", "Vector Databases"],
       github: "#",
       demo: "#",
-      impact: "Intelligent Testing"
+      impact: "Custom Intelligent Usage"
     }
   ];
 

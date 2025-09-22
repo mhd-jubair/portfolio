@@ -14,21 +14,21 @@ export const Contact = () => {
     {
       icon: Github,
       title: "GitHub",
-      value: "@mohamedjubair",
-      link: "https://github.com/mohamedjubair",
+      value: "@mhd-jubair",
+      link: "https://github.com/mhd-jubair/",
       color: "accent"
     },
     {
       icon: Linkedin,
       title: "LinkedIn",
       value: "Mohamed Jubair",
-      link: "https://linkedin.com/in/mohamedjubair",
+      link: "https://www.linkedin.com/in/mohamed-jubair-428b6318b/",
       color: "primary"
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "Chennai, India",
+      value: "Kanyakumari, India",
       link: "#",
       color: "accent"
     }
@@ -81,32 +81,48 @@ export const Contact = () => {
             Whether you need development, testing, or both - I'm here to help bring your ideas to life with quality and precision.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              size="lg" 
-              className="bg-primary text-primary-foreground hover:bg-primary/90 transition-smooth"
+            {/* Send Email Button */}
+            <a
+              href="mailto:jakirjubair.555@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <Mail className="mr-2 h-5 w-5" />
-              Send Message
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth"
+              <Button
+                size="lg"
+                className="bg-primary text-primary-foreground hover:bg-primary/90 transition-smooth"
+              >
+                <Mail className="mr-2 h-5 w-5" />
+                Send Message
+              </Button>
+            </a>
+
+            {/* Schedule Call Button */}
+            <a
+              href="https://calendar.google.com/calendar/r/eventedit?add=jakirjubair.555@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <Calendar className="mr-2 h-5 w-5" />
-              Schedule Call
-            </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth"
+              >
+                <Calendar className="mr-2 h-5 w-5" />
+                Schedule Call
+              </Button>
+            </a>
           </div>
+
         </div>
 
         {/* Quick Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-12 animate-slide-up">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mt-12 animate-slide-up">
           <div className="text-center">
-            <div className="text-2xl font-bold text-primary">24h</div>
+            <div className="text-2xl font-bold text-primary">6h</div>
             <div className="text-sm text-muted-foreground">Response Time</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-accent">Remote</div>
+            <div className="text-2xl font-bold text-accent">Onsite/Remote</div>
             <div className="text-sm text-muted-foreground">Work Preference</div>
           </div>
           <div className="text-center">
@@ -116,6 +132,10 @@ export const Contact = () => {
           <div className="text-center">
             <div className="text-2xl font-bold text-accent">IST</div>
             <div className="text-sm text-muted-foreground">Timezone</div>
+          </div>
+          <div className="text-center">
+            <div className="text-2xl font-bold text-primary">Yes</div>
+            <div className="text-sm text-muted-foreground">Sponsorship / Relocation</div>
           </div>
         </div>
       </div>
